@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9575F8382B7417AE13C9C344 /* libPods-DeepOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61ED4808B3C1DACB3BE2B891 /* libPods-DeepOC.a */; };
+		E63C0B6320B9A2E30003AD9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0B6220B9A2E30003AD9F /* AppDelegate.m */; };
+		E63C0B6620B9A2E30003AD9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0B6520B9A2E30003AD9F /* ViewController.m */; };
+		E63C0B6920B9A2E30003AD9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63C0B6720B9A2E30003AD9F /* Main.storyboard */; };
+		E63C0B6B20B9A2E50003AD9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63C0B6A20B9A2E50003AD9F /* Assets.xcassets */; };
+		E63C0B6E20B9A2E50003AD9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63C0B6C20B9A2E50003AD9F /* LaunchScreen.storyboard */; };
+		E63C0B7120B9A2E50003AD9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0B7020B9A2E50003AD9F /* main.m */; };
+		E63C0B7D20B9ACA00003AD9F /* DKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0B7C20B9ACA00003AD9F /* DKRequest.m */; };
+		E63C0B8020B9AF770003AD9F /* DKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0B7F20B9AF770003AD9F /* DKNetworkManager.m */; };
+		E63C0BAF20B9C0400003AD9F /* DKTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0BAE20B9C0400003AD9F /* DKTimeTool.m */; };
+		E63C0BB220B9C04C0003AD9F /* DKFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0BB020B9C04C0003AD9F /* DKFileTool.m */; };
+		E63C0BD020BA7CD80003AD9F /* DKUrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C0BCF20BA7CD80003AD9F /* DKUrlArgumentsFilter.m */; };
+		E698587621AFA73400AA455B /* DKVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E698587521AFA73400AA455B /* DKVideoTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29FFF92FE548F20145C520A4 /* Pods-DeepOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepOC/Pods-DeepOC.debug.xcconfig"; sourceTree = "<group>"; };
+		61ED4808B3C1DACB3BE2B891 /* libPods-DeepOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeepOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FE18C993718D3FC57249A /* Pods-DeepOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepOC/Pods-DeepOC.release.xcconfig"; sourceTree = "<group>"; };
+		E63C0B5E20B9A2E30003AD9F /* DeepOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63C0B6120B9A2E30003AD9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E63C0B6220B9A2E30003AD9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E63C0B6420B9A2E30003AD9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E63C0B6520B9A2E30003AD9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E63C0B6820B9A2E30003AD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E63C0B6A20B9A2E50003AD9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E63C0B6D20B9A2E50003AD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E63C0B6F20B9A2E50003AD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63C0B7020B9A2E50003AD9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63C0B7B20B9ACA00003AD9F /* DKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKRequest.h; sourceTree = "<group>"; };
+		E63C0B7C20B9ACA00003AD9F /* DKRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKRequest.m; sourceTree = "<group>"; };
+		E63C0B7E20B9AF770003AD9F /* DKNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNetworkManager.h; sourceTree = "<group>"; };
+		E63C0B7F20B9AF770003AD9F /* DKNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNetworkManager.m; sourceTree = "<group>"; };
+		E63C0B8520B9B2FA0003AD9F /* URLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		E63C0B8620B9B3E10003AD9F /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		E63C0B8720B9B4B60003AD9F /* SystemMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemMacros.h; sourceTree = "<group>"; };
+		E63C0B8820B9B6350003AD9F /* StyleMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleMacros.h; sourceTree = "<group>"; };
+		E63C0BAD20B9C0400003AD9F /* DKTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTimeTool.h; sourceTree = "<group>"; };
+		E63C0BAE20B9C0400003AD9F /* DKTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTimeTool.m; sourceTree = "<group>"; };
+		E63C0BB020B9C04C0003AD9F /* DKFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKFileTool.m; sourceTree = "<group>"; };
+		E63C0BB120B9C04C0003AD9F /* DKFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKFileTool.h; sourceTree = "<group>"; };
+		E63C0BB920BA3FC90003AD9F /* DeepOC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepOC.pch; sourceTree = "<group>"; };
+		E63C0BCE20BA7CD80003AD9F /* DKUrlArgumentsFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKUrlArgumentsFilter.h; sourceTree = "<group>"; };
+		E63C0BCF20BA7CD80003AD9F /* DKUrlArgumentsFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKUrlArgumentsFilter.m; sourceTree = "<group>"; };
+		E698587421AFA73400AA455B /* DKVideoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKVideoTool.h; sourceTree = "<group>"; };
+		E698587521AFA73400AA455B /* DKVideoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKVideoTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63C0B5B20B9A2E30003AD9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9575F8382B7417AE13C9C344 /* libPods-DeepOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E18F491CC19CE01978440E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29FFF92FE548F20145C520A4 /* Pods-DeepOC.debug.xcconfig */,
+				8B8FE18C993718D3FC57249A /* Pods-DeepOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9844C45AA21FA55A3FC6F877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61ED4808B3C1DACB3BE2B891 /* libPods-DeepOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63C0B5520B9A2E30003AD9F = {
+			isa = PBXGroup;
+			children = (
+				E63C0B6020B9A2E30003AD9F /* DeepOC */,
+				E63C0B5F20B9A2E30003AD9F /* Products */,
+				5E18F491CC19CE01978440E1 /* Pods */,
+				9844C45AA21FA55A3FC6F877 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E63C0B5F20B9A2E30003AD9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63C0B5E20B9A2E30003AD9F /* DeepOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63C0B6020B9A2E30003AD9F /* DeepOC */ = {
+			isa = PBXGroup;
+			children = (
+				E63C0BAC20B9C0270003AD9F /* DKToolKit */,
+				E63C0B7A20B9AC7A0003AD9F /* DKNetwork */,
+				E63C0B7720B9A91C0003AD9F /* Classes */,
+				E63C0B8120B9B2D50003AD9F /* Define */,
+				E63C0B7820B9A9280003AD9F /* Supporting Files */,
+			);
+			path = DeepOC;
+			sourceTree = "<group>";
+		};
+		E63C0B7720B9A91C0003AD9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63C0B6120B9A2E30003AD9F /* AppDelegate.h */,
+				E63C0B6220B9A2E30003AD9F /* AppDelegate.m */,
+				E63C0B6420B9A2E30003AD9F /* ViewController.h */,
+				E63C0B6520B9A2E30003AD9F /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E63C0B7820B9A9280003AD9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63C0B6720B9A2E30003AD9F /* Main.storyboard */,
+				E63C0B6A20B9A2E50003AD9F /* Assets.xcassets */,
+				E63C0B6C20B9A2E50003AD9F /* LaunchScreen.storyboard */,
+				E63C0B6F20B9A2E50003AD9F /* Info.plist */,
+				E63C0B7020B9A2E50003AD9F /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63C0B7A20B9AC7A0003AD9F /* DKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				E63C0B7B20B9ACA00003AD9F /* DKRequest.h */,
+				E63C0B7C20B9ACA00003AD9F /* DKRequest.m */,
+				E63C0B7E20B9AF770003AD9F /* DKNetworkManager.h */,
+				E63C0B7F20B9AF770003AD9F /* DKNetworkManager.m */,
+				E63C0BCE20BA7CD80003AD9F /* DKUrlArgumentsFilter.h */,
+				E63C0BCF20BA7CD80003AD9F /* DKUrlArgumentsFilter.m */,
+			);
+			path = DKNetwork;
+			sourceTree = "<group>";
+		};
+		E63C0B8120B9B2D50003AD9F /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				E63C0B8520B9B2FA0003AD9F /* URLMacros.h */,
+				E63C0B8620B9B3E10003AD9F /* UtilsMacros.h */,
+				E63C0B8720B9B4B60003AD9F /* SystemMacros.h */,
+				E63C0B8820B9B6350003AD9F /* StyleMacros.h */,
+				E63C0BB920BA3FC90003AD9F /* DeepOC.pch */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		E63C0BAC20B9C0270003AD9F /* DKToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				E63C0BB120B9C04C0003AD9F /* DKFileTool.h */,
+				E63C0BB020B9C04C0003AD9F /* DKFileTool.m */,
+				E63C0BAD20B9C0400003AD9F /* DKTimeTool.h */,
+				E63C0BAE20B9C0400003AD9F /* DKTimeTool.m */,
+				E698587421AFA73400AA455B /* DKVideoTool.h */,
+				E698587521AFA73400AA455B /* DKVideoTool.m */,
+			);
+			path = DKToolKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63C0B5D20B9A2E30003AD9F /* DeepOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63C0B7420B9A2E50003AD9F /* Build configuration list for PBXNativeTarget "DeepOC" */;
+			buildPhases = (
+				34B1AFFE428CCCE9444C59D9 /* [CP] Check Pods Manifest.lock */,
+				E63C0B5A20B9A2E30003AD9F /* Sources */,
+				E63C0B5B20B9A2E30003AD9F /* Frameworks */,
+				E63C0B5C20B9A2E30003AD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepOC;
+			productName = DeepOC;
+			productReference = E63C0B5E20B9A2E30003AD9F /* DeepOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63C0B5620B9A2E30003AD9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "邓凯";
+				TargetAttributes = {
+					E63C0B5D20B9A2E30003AD9F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E63C0B5920B9A2E30003AD9F /* Build configuration list for PBXProject "DeepOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E63C0B5520B9A2E30003AD9F;
+			productRefGroup = E63C0B5F20B9A2E30003AD9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63C0B5D20B9A2E30003AD9F /* DeepOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63C0B5C20B9A2E30003AD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C0B6E20B9A2E50003AD9F /* LaunchScreen.storyboard in Resources */,
+				E63C0B6B20B9A2E50003AD9F /* Assets.xcassets in Resources */,
+				E63C0B6920B9A2E30003AD9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34B1AFFE428CCCE9444C59D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63C0B5A20B9A2E30003AD9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63C0B6620B9A2E30003AD9F /* ViewController.m in Sources */,
+				E63C0BB220B9C04C0003AD9F /* DKFileTool.m in Sources */,
+				E698587621AFA73400AA455B /* DKVideoTool.m in Sources */,
+				E63C0BAF20B9C0400003AD9F /* DKTimeTool.m in Sources */,
+				E63C0B7120B9A2E50003AD9F /* main.m in Sources */,
+				E63C0B7D20B9ACA00003AD9F /* DKRequest.m in Sources */,
+				E63C0B6320B9A2E30003AD9F /* AppDelegate.m in Sources */,
+				E63C0B8020B9AF770003AD9F /* DKNetworkManager.m in Sources */,
+				E63C0BD020BA7CD80003AD9F /* DKUrlArgumentsFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63C0B6720B9A2E30003AD9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63C0B6820B9A2E30003AD9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E63C0B6C20B9A2E50003AD9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63C0B6D20B9A2E50003AD9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63C0B7220B9A2E50003AD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63C0B7320B9A2E50003AD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E63C0B7520B9A2E50003AD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FFF92FE548F20145C520A4 /* Pods-DeepOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DeepOC/Define/DeepOC.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DeepOC/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.crane.DeepOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E63C0B7620B9A2E50003AD9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8FE18C993718D3FC57249A /* Pods-DeepOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DeepOC/Define/DeepOC.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DeepOC/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.crane.DeepOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63C0B5920B9A2E30003AD9F /* Build configuration list for PBXProject "DeepOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63C0B7220B9A2E50003AD9F /* Debug */,
+				E63C0B7320B9A2E50003AD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63C0B7420B9A2E50003AD9F /* Build configuration list for PBXNativeTarget "DeepOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63C0B7520B9A2E50003AD9F /* Debug */,
+				E63C0B7620B9A2E50003AD9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63C0B5620B9A2E30003AD9F /* Project object */;
+}
